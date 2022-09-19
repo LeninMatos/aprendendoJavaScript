@@ -86,3 +86,21 @@ const senha2 = "minhaSenha123"
 console.log(senha2.length);
 console.log(senha2.length>=15);
 
+// null e undefined
+
+let input1 = null;
+
+if (input1 === null) {
+ console.log('não há informação');
+} else {
+ console.log(input1);
+}
+
+let input2 = null;
+let input3;
+
+console.log(input2); // null
+console.log(input3); // undefined
+
+console.log(null == undefined); // true
+console.log(null === undefined); // false
