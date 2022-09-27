@@ -40,11 +40,11 @@ var exibeMensagem = function() {
     var mensagemForaDoIf = 'Caelum'; 
     if(true) { 
         var mensagemDentroDoIf = 'Alura'; 
-        console.log(mensagemDentroDoIf)// Alura ;
+       //console.log(mensagemDentroDoIf)// Alura ;
     } 
-    console.log(mensagemForaDoIf); // Caelum 
-
-    console.log(mensagemDentroDoIf); // Alura 
+    //console.log(mensagemForaDoIf); // Caelum 
+//
+    //console.log(mensagemDentroDoIf); // Alura 
 }
 
 exibeMensagem(); // Imprime 'Alura', 'Caelum' e 'Alura'
@@ -58,3 +58,19 @@ exibeMensagem(); // Imprime 'Alura', 'Caelum' e 'Alura'
 //elas não são inicializadas.
 //Além das variáveis declaradas com var temos a possibilidade de usar constantes por meio da palavra-chave const ou 
 //utilizar variáveis com escopo de bloco através da let.
+
+
+//---------------------
+
+var respostaDeTudo = 42
+let idade = 29
+const pi = 3.14
+
+{
+    var respostaDeTudo = 3.14
+    let idade = 42
+    const pi = 29
+    console.log(respostaDeTudo, idade, pi)
+
+}
+console.log(respostaDeTudo, idade, pi)
