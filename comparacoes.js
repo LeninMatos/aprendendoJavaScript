@@ -18,3 +18,11 @@ String()
 console.log(typeof numero)
 console.log(typeof texto)
 
+// || Operador “ou”, retorna true caso uma condição seja válida;
+
+// && Operador “e”, retorna true somente se todas as condições forem válidas;
+
+// != e !==  Operadores “não igual” e “estritamente não igual”, utilizados para comparação, da mesma forma 
+//que == e === retornam true ou false.
+
+// mais operadores https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
