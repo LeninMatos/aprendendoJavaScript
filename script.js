@@ -74,3 +74,5 @@ const pi = 3.14
 
 }
 console.log(respostaDeTudo, idade, pi)
+
+//a "var" assumiu o ultimo valor imposto. A "let" manteve o primeiro valor imposto. A "const" também manteve o primeiro valor
