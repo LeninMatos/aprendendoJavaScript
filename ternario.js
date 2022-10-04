@@ -1,6 +1,7 @@
 const idadeMinima = 18;
 const idadeCliente = 16;
-
+const sig = 20;
+const  tdfi = 15;
 //if /else
 if (idadeCliente >= idadeMinima) {
     console.log("Cerveja")
